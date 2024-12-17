@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form id="feedbackForm">
+        <label>Your Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Your Feedback:</label><br>
+        <textarea id="feedback"></textarea><br><br>
+
+        <button type="button" onclick="submitFeedback()">Submit</button>
+        <p id="message"></p>
+    </form>
+
+    <!-- Link to external JavaScript -->
+    <script src="feedback.js"></script>
+</body>
+</html>

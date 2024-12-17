@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operators</title>
+</head>
+<body>
+    <h2>Arithmetic Operators Project</h2>
+    <h1 id="number">0</h1>
+    <button onclick="increase()">+</button>
+    <button onclick="decrease()">-</button>
+    <button onclick="reset()">Reset</button>
+
+    <script>
+        let count = 0;
+
+        function increase() {
+            count++;
+            document.getElementById('number').innerText = count;
+        }
+
+        function decrease() {
+            count--;
+            document.getElementById('number').innerText = count;
+        }
+
+        function reset() {
+            count = 0;
+            document.getElementById('number').innerText = count;
+        }
+    </script>
+</body>
+</html>
